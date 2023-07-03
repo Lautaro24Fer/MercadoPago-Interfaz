@@ -129,6 +129,33 @@ body a{
 .container2{
     background-color: white;
     margin: 15px;
+    border-radius: 10px;
+}
+.servicios{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    font-size: small;
+    border: 1px solid rgb(220, 220, 220);
+}
+.boton-servicios{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.boton-servicios button{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    border: 1px solid rgb(220, 220, 220);
+    background-color: rgb(251, 251, 251);
+}
+.boton-servicios button:active{
+    background-color: rgb(220, 220, 220);
+}
+.boton-servicios p{
+    color: rgb(100, 100, 100);
 }
 
 
